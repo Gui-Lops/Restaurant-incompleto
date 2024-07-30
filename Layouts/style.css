@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, ul, li, p {
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.titulo {
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.flex a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #1d1e20;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding-left: 20px;
+}
+
+/* CSS FLEXBOX 1 */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    width: 600;
+    height: 400;
+    flex: 1 1 300px;
+    margin: 20px;
+}
